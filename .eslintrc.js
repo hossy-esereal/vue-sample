@@ -5,7 +5,7 @@ module.exports = {
         node: true
     },
     extends: ['@nuxtjs/eslint-config-typescript', 'plugin:vue/essential'],
-    plugins: ['vue'],
+    plugins: [],
     // add your custom rules here
     rules: {
         'vue/name-property-casing': ['error', 'kebab-case'],

@@ -19,7 +19,7 @@ export default {
             { charset: 'utf-8' },
             {
                 name: 'viewport',
-                content: 'width=device-width, initial-scale=1'
+                content: 'width=device-width,initial-scale=1.0,user-scalable=no'
             },
             {
                 hid: 'description',
@@ -38,7 +38,7 @@ export default {
     /*
      ** Global CSS
      */
-    css: [],
+    css: [{ src: '~/assets/sass/app.scss', lang: 'scss' }],
     /*
      ** Plugins to load before mounting the App
      ** https://nuxtjs.org/guide/plugins

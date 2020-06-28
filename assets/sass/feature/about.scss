@@ -1,0 +1,35 @@
+.about-section .inner {
+    max-width: 1000px;
+}
+
+.about-item {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.about-image-wrapper {
+    flex: 0 0 330px;
+    margin-right: 40px;
+}
+
+.about-image {
+    border-radius: 50%;
+    box-shadow: 0 0 25px 0 #d9d9d9;
+}
+
+.about-body {
+    flex: 1;
+}
+
+.about-body p:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+.about-body-content {
+    display: flex;
+}
+
+.year {
+    margin-right: 30px;
+}
